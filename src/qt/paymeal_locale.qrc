@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/paymeal_bg.qm</file>
+        <file alias="de">locale/paymeal_de.qm</file>
+        <file alias="en">locale/paymeal_en.qm</file>
+        <file alias="es">locale/paymeal_es.qm</file>
+        <file alias="fi">locale/paymeal_fi.qm</file>
+        <file alias="fr">locale/paymeal_fr.qm</file>
+        <file alias="it">locale/paymeal_it.qm</file>
+        <file alias="ja">locale/paymeal_ja.qm</file>
+        <file alias="pl">locale/paymeal_pl.qm</file>
+        <file alias="pt">locale/paymeal_pt.qm</file>
+        <file alias="ru">locale/paymeal_ru.qm</file>
+        <file alias="sk">locale/paymeal_sk.qm</file>
+        <file alias="sv">locale/paymeal_sv.qm</file>
+        <file alias="vi">locale/paymeal_vi.qm</file>
+        <file alias="zh_CN">locale/paymeal_zh_CN.qm</file>
+        <file alias="zh_TW">locale/paymeal_zh_TW.qm</file>
+    </qresource>
+</RCC>

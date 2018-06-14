@@ -1,0 +1,6 @@
+usr/local/bin/paymeal-qt usr/bin
+share/pixmaps/paymeal32.xpm usr/share/pixmaps
+share/pixmaps/paymeal16.xpm usr/share/pixmaps
+share/pixmaps/paymeal128.png usr/share/pixmaps
+debian/paymeal-qt.desktop usr/share/applications
+debian/paymeal-qt.protocol usr/share/kde4/services/

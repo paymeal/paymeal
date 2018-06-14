@@ -1,0 +1,33 @@
+# /etc/conf.d/paymeald: config file for /etc/init.d/paymeald
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/paymealcore/paymeal.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/paymeald"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/paymeald.pid"
+
+# Where to write paymeald data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/paymeald"
+
+# User and group to own paymeald process
+#BITCOIND_USER="paymealcore"
+#BITCOIND_GROUP="paymealcore"
+
+# Path to paymeald executable
+#BITCOIND_BIN="/usr/bin/paymeald"
+
+# Nice value to run paymeald under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

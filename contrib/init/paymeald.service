@@ -1,0 +1,22 @@
+[Unit]
+Description=paymeal's distributed currency daemon
+After=network.target
+
+[Service]
+User=paymealcore
+Group=paymealcore
+
+Type=forking
+PIDFile=/var/lib/paymeald/paymeald.pid
+ExecStart=/usr/bin/paymeald -daemon -pid=/var/lib/paymeald/paymeald.pid \
+-conf=/etc/paymealcore/paymeal.conf -datadir=/var/lib/paymeald -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

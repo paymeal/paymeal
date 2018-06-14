@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Paymeal Core
+Comment=Paymeal P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Paymeal peer-to-peer Netzwerk
+Comment[fr]=Paymeal, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Paymeal, eşten eşe kriptografik sanal para birimi
+Exec=paymeal-qt %u
+Terminal=false
+Type=Application
+Icon=paymeal128
+MimeType=x-scheme-handler/paymeal;
+Categories=Office;Finance;

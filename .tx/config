@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[paymeal.qt-translation-012x]
+file_filter = src/qt/locale/paymeal_<lang>.ts
+source_file = src/qt/locale/paymeal_en.ts
+source_lang = en
