@@ -1,7 +1,6 @@
-![Paymeal](https://github.com/paymeal/paymeal/raw/develop/src/qt/res/icons/bitcoin.png "Paymeal")
+![Paymeal](https://github.com/paymeal/paymeal/blob/master/src/qt/res/icons/bitcoin.png "Paymeal")
 PAYMEAL Core integration/staging tree
 =====================================
-[![Build Status](https://travis-ci.org/paymeal/paymeal.svg?branch=develop)](https://travis-ci.org/paymeal/paymeal)
 
 
 http://www.paymeal.org
