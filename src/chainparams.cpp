@@ -177,9 +177,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000006da2e0a"); // 69
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000c0001b"); // 69
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00000631648439e94b6110d9bc8ca8dd8b956944e09ec4cf3b64cdcad6875cf8"); // 69
+        consensus.defaultAssumeValid = uint256S("0x000007aff6c728ae5b2977b899628b9d0b06c1eecbbb87ac6470689c570415d0"); // 69
 //consensus.nMinimumChainWork = uint256S("0x00"); // 83484
 //consensus.defaultAssumeValid = uint256S("0x00"); // 83484
         /**
@@ -252,7 +252,7 @@ public:
             boost::assign::map_list_of
 	//(   0, uint256S("0x00"))
            ( 0, uint256S("0x00000678eb5c8d3f0f5c150b0c5311b0fc764aa867ee7c5b8d6ec1b7006439c5"))
-           ( 69, uint256S("0x00000631648439e94b6110d9bc8ca8dd8b956944e09ec4cf3b64cdcad6875cf8"))
+           ( 11, uint256S("0x000007aff6c728ae5b2977b899628b9d0b06c1eecbbb87ac6470689c570415d0"))
          /*    ( 50, uint256S("0x00000547ca650f3be6ddf31871dfd5f76faafcd12b6083706e3d0a88c9a0cdbe"))
             ( 100, uint256S("0x000001c12d74ca8120d2751bb2846a5af44892045099750efe73a0cbb1eca860"))
             ( 200, uint256S("0x000000053db45327e7fcce9b8baf9060622c01456ac677121a6f8dcf15a98d7b"))
@@ -278,8 +278,8 @@ public:
      
        
  chainTxData = ChainTxData{
-            1527949537, // * UNIX timestamp of last checkpoint block
-            68,    // * total number of transactions between genesis and last checkpoint
+            1527924455, // * UNIX timestamp of last checkpoint block
+            10,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             1000        // * estimated number of transactions per day after checkpoint
 
