@@ -250,10 +250,10 @@ consensus.defaultAssumeValid = uint256S("0x00"); // 69
  
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-	//(   0, uint256S("0x00"))
-           ( 0, uint256S("0x00000678eb5c8d3f0f5c150b0c5311b0fc764aa867ee7c5b8d6ec1b7006439c5"))
-           ( 11, uint256S("0x000007aff6c728ae5b2977b899628b9d0b06c1eecbbb87ac6470689c570415d0"))
-         /*    ( 50, uint256S("0x00000547ca650f3be6ddf31871dfd5f76faafcd12b6083706e3d0a88c9a0cdbe"))
+// (   0, uint256S("0x00"))
+          ( 0, uint256S("0x00000678eb5c8d3f0f5c150b0c5311b0fc764aa867ee7c5b8d6ec1b7006439c5"))
+       /*    ( 11, uint256S("0x000007aff6c728ae5b2977b899628b9d0b06c1eecbbb87ac6470689c570415d0"))
+            ( 50, uint256S("0x00000547ca650f3be6ddf31871dfd5f76faafcd12b6083706e3d0a88c9a0cdbe"))
             ( 100, uint256S("0x000001c12d74ca8120d2751bb2846a5af44892045099750efe73a0cbb1eca860"))
             ( 200, uint256S("0x000000053db45327e7fcce9b8baf9060622c01456ac677121a6f8dcf15a98d7b"))
             ( 300, uint256S("0x00000000027d5a77e5c38e366465be2f21292fa3eb4d290efb6316eebcc5c0ca"))
@@ -275,8 +275,14 @@ consensus.defaultAssumeValid = uint256S("0x00"); // 69
 
 
 
-     
-       
+     chainTxData = ChainTxData{
+            1527866528, // * UNIX timestamp of last checkpoint block
+            0,    // * total number of transactions between genesis and last checkpoint
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            0        // * estimated number of transactions per day after checkpoint
+
+        };
+/*       
  chainTxData = ChainTxData{
             1527924455, // * UNIX timestamp of last checkpoint block
             10,    // * total number of transactions between genesis and last checkpoint
@@ -284,6 +290,7 @@ consensus.defaultAssumeValid = uint256S("0x00"); // 69
             1000        // * estimated number of transactions per day after checkpoint
 
         };
+	    */
 /*
 chainTxData = ChainTxData{
             0, // * UNIX timestamp of last checkpoint block
