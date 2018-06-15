@@ -177,11 +177,11 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-       // consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000290e31461dcf3bd3ec"); // 83484
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000006da2e0a"); // 69
         // By default assume that the signatures in ancestors of this block are valid.
-       // consensus.defaultAssumeValid = uint256S("0x00000000000001055896a6bd92c9f6a62927a3ba25c6c3a8ffc6441650f722a6"); // 83484
-consensus.nMinimumChainWork = uint256S("0x00"); // 83484
-consensus.defaultAssumeValid = uint256S("0x00"); // 83484
+        consensus.defaultAssumeValid = uint256S("0x00000631648439e94b6110d9bc8ca8dd8b956944e09ec4cf3b64cdcad6875cf8"); // 69
+//consensus.nMinimumChainWork = uint256S("0x00"); // 83484
+//consensus.defaultAssumeValid = uint256S("0x00"); // 83484
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -252,7 +252,7 @@ consensus.defaultAssumeValid = uint256S("0x00"); // 83484
             boost::assign::map_list_of
 	//(   0, uint256S("0x00"))
            ( 0, uint256S("0x00000678eb5c8d3f0f5c150b0c5311b0fc764aa867ee7c5b8d6ec1b7006439c5"))
-           ( 100, uint256S("0x00000df75bbbae8abe60a146187aea4f3b0a48c50f4f5a812ecb3fdfd0a6c371"))
+           ( 69, uint256S("0x00000631648439e94b6110d9bc8ca8dd8b956944e09ec4cf3b64cdcad6875cf8"))
          /*    ( 50, uint256S("0x00000547ca650f3be6ddf31871dfd5f76faafcd12b6083706e3d0a88c9a0cdbe"))
             ( 100, uint256S("0x000001c12d74ca8120d2751bb2846a5af44892045099750efe73a0cbb1eca860"))
             ( 200, uint256S("0x000000053db45327e7fcce9b8baf9060622c01456ac677121a6f8dcf15a98d7b"))
@@ -278,8 +278,8 @@ consensus.defaultAssumeValid = uint256S("0x00"); // 83484
      
        
  chainTxData = ChainTxData{
-            1528113280, // * UNIX timestamp of last checkpoint block
-            99,    // * total number of transactions between genesis and last checkpoint
+            1527949537, // * UNIX timestamp of last checkpoint block
+            68,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             1000        // * estimated number of transactions per day after checkpoint
 
