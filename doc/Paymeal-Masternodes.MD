@@ -6,7 +6,7 @@
 1. Get a VPS from a provider like DigitalOcean, Vultr, Linode, etc.
 - Recommended VPS size at least 1gb RAM
 - **it must be ubuntu 16.04 (xenial)**
-2. Make sure you have a transaction of exactly 1000 POLIS in your desktop cold wallet.
+2. Make sure you have a transaction of exactly 1000 PAYMEAL in your desktop cold wallet.
 
 ------------
 
