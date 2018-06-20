@@ -44,12 +44,16 @@ Press Ok (you will need to restart the wallet)
 > - Mac OSX use Terminal to ssh connection by root user to VPS.
 - Unix user know how to do it ;-)
 
-2.Copy/paste these commands into the VPS and hit enter:** (One Box At A Time)**
+2.Copy/paste these commands into the VPS and hit enter:**(One Box At A Time)**
 
 ```apt-get -y update```
+
 ```apt-get -y upgrade```
+
 ```apt-get -y install software-properties-common```
+
 ```apt-add-repository -y ppa:bitcoin/bitcoin```
+
 ```apt-get -y update```
 
 ------------
@@ -102,6 +106,7 @@ Press Ok (you will need to restart the wallet)
 ```nano```
 
 ------------
+
 ```apt-get -y update```
 
 ```apt-get -y upgrade```
@@ -111,6 +116,7 @@ Press Ok (you will need to restart the wallet)
 ```apt-get -y install libdb4.8++-dev```
 
 ------------
+
 ```wget https://github.com/paymeal/paymeal/releases/download/v1.3.0/Paymeal-1.3.0-linux64-shell.tar.gz```
 
 ```tar -xvf Paymeal-1.3.0-linux64-shell.tar.gz```
@@ -120,6 +126,7 @@ Press Ok (you will need to restart the wallet)
 ```mv paymeal{d,-cli} /usr/local/bin```
 
 ------------
+
 ```cd /root```
 
 ```mkdir .paymealcore```
@@ -136,9 +143,9 @@ Press Ok (you will need to restart the wallet)
 
 .create a rpcpassword (as you prefer)
 
-#### copy and paste this to your **paymeal.conf **file
+#### copy and paste this to your **paymeal.conf** file
 
-```rpcuser=choose-a-fantasy-username
+>rpcuser=choose-a-fantasy-username
 rpcpassword=choose-a-secure-password
 rpcallowip=127.0.0.1
 listen=1
@@ -159,7 +166,7 @@ addnode=explorer.paymeal.org:25126
 addnode=explorer.asia.paymeal.org:25126
 addnode=45.77.45.127:25126
 addnode=explorer.usa.paymeal.org:25126
-addnode=149.28.198.18:25126```
+addnode=149.28.198.18:25126
 
 ------------
 
@@ -241,7 +248,7 @@ Cheers !
 
 ## SECURE YOUR VPS SERVER
 #### optional
-```ufw default deny incoming
+>ufw default deny incoming
 ufw default deny outgoing
 ufw allow ssh
 ufw allow 22
