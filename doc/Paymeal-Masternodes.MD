@@ -30,8 +30,11 @@ Press Ok (you will need to restart the wallet)
 ------------
 
 2.Go to the "Tools" -> "Debug console"
+
 3.Run the following command: masternode genkey
+
 4.You should see a long key that looks like:
+
 > 3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg
 
 5.This is your private key, keep it safe, **do not share with anyone**
