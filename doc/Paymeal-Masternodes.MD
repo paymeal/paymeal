@@ -138,7 +138,7 @@ Press Ok (you will need to restart the wallet)
 
 #### copy and paste this to your **paymeal.conf **file
 
-```> rpcuser=choose-a-fantasy-username
+```rpcuser=choose-a-fantasy-username
 rpcpassword=choose-a-secure-password
 rpcallowip=127.0.0.1
 listen=1
