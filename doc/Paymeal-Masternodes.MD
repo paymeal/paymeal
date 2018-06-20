@@ -209,11 +209,13 @@ to the Paymeal wallet (on local machine)
 
 4.You should see output like the following if you have a transaction with exactly 1000 PAYMEAL:
 
-```{
+```
+{
 
 "12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "0"
 
-}```
+}
+```
 
 5.The value on the left is your **txid** and the right is the **vout**
 
