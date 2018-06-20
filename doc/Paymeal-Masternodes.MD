@@ -145,28 +145,50 @@ Press Ok (you will need to restart the wallet)
 
 #### copy and paste this to your **paymeal.conf** file
 
->rpcuser=choose-a-fantasy-username
+```rpcuser=choose-a-fantasy-username
+
 rpcpassword=choose-a-secure-password
+
 rpcallowip=127.0.0.1
+
 listen=1
+
 server=1
+
 daemon=1
+
 masternode=1
+
 logtimestamps=1
+
 maxconnections=256
+
 externalip=VPS_IP_ADDRESS
+
 masternodeprivkey=WALLET_GENKEY
+
 addnode=80.240.21.140:25126
+
 addnode=node1.paymeal.org:25126
+
 addnode=104.238.149.141:25126
+
 addnode=node2.paymeal.org:25126
+
 addnode=104.156.232.181:25126
+
 addnode=node3.paymeal.org:25126
+
 addnode=explorer.paymeal.org:25126
+
 addnode=explorer.asia.paymeal.org:25126
+
 addnode=45.77.45.127:25126
+
 addnode=explorer.usa.paymeal.org:25126
-addnode=149.28.198.18:25126
+
+addnode=149.28.198.18:25126```
+
 
 ------------
 ------------
@@ -224,11 +246,11 @@ to the Paymeal wallet (on local machine)
 
 4.You should see output like the following if you have a transaction with exactly 1000 PAYMEAL:
 
->{
+```{
 
 "12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "0"
 
-}
+}```
 
 5.The value on the left is your **txid** and the right is the **vout**
 
@@ -250,12 +272,19 @@ Cheers !
 
 ## SECURE YOUR VPS SERVER
 #### optional
->ufw default deny incoming
-ufw default deny outgoing
-ufw allow ssh
-ufw allow 22
-ufw allow 2222
-ufw allow 25126
-ufw allow 25127
-ufw enable```
+```ufw default deny incoming```
+
+```ufw default deny outgoing```
+
+```ufw allow ssh```
+
+```ufw allow 22```
+
+```ufw allow 2222```
+
+```ufw allow 25126```
+
+```ufw allow 25127```
+
+```ufw enable```
 
