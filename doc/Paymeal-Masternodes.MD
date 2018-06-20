@@ -129,54 +129,33 @@ nano
 
 #### copy and paste this to your **paymeal.conf** file
 
-```rpcuser=choose-a-fantasy-username
-
+```
+rpcuser=choose-a-fantasy-username
 rpcpassword=choose-a-secure-password
-
 rpcallowip=127.0.0.1
-
 listen=1
-
 server=1
-
 daemon=1
-
 masternode=1
-
 logtimestamps=1
-
 maxconnections=256
-
 externalip=VPS_IP_ADDRESS
-
 masternodeprivkey=WALLET_GENKEY
-
 addnode=80.240.21.140:25126
-
 addnode=node1.paymeal.org:25126
-
 addnode=104.238.149.141:25126
-
 addnode=node2.paymeal.org:25126
-
 addnode=104.156.232.181:25126
-
 addnode=node3.paymeal.org:25126
-
 addnode=explorer.paymeal.org:25126
-
 addnode=explorer.asia.paymeal.org:25126
-
 addnode=45.77.45.127:25126
-
 addnode=explorer.usa.paymeal.org:25126
-
-addnode=149.28.198.18:25126```
-
+addnode=149.28.198.18:25126
+```
 
 ------------
-------------
-------------
+
 
 #CTRL X to save it. Y for yes, then ENTER.
 
