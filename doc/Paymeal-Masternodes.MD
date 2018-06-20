@@ -45,7 +45,7 @@ Press Ok (you will need to restart the wallet)
 1.Log as root into your VPS by SSH.
 > - Windows users use putty.exe to ssh connection by root user to VPS.
 > - Mac OSX use Terminal to ssh connection by root user to VPS.
-- Unix user know how to do it ;-)
+> - Unix user know how to do it ;-)
 
 2.Copy/paste these commands into the VPS and hit enter:**(One Box At A Time)**
 
