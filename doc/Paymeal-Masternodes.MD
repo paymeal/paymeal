@@ -169,8 +169,10 @@ addnode=explorer.usa.paymeal.org:25126
 addnode=149.28.198.18:25126
 
 ------------
+------------
+------------
 
-CTRL X to save it. Y for yes, then ENTER.
+#CTRL X to save it. Y for yes, then ENTER.
 
 ```paymeald```
 
@@ -222,17 +224,17 @@ to the Paymeal wallet (on local machine)
 
 4.You should see output like the following if you have a transaction with exactly 1000 PAYMEAL:
 
-```{
+>{
 
 "12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "0"
 
-}```
+}
 
-5.The value on the left is your **txid **and the right is the **vout**
+5.The value on the left is your **txid** and the right is the **vout**
 
 6.Add a line to the bottom of the already opened masternode.conf file using the IP of your VPS (with port 25126), **private key**, **txid** and **vout**:
 
-```mn1 192.168.1.1:25126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0 ```
+```mn1 192.168.1.1:25126 3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 12345678xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 0```
 
 7.Save the file, exit your wallet and reopen your wallet.
 
